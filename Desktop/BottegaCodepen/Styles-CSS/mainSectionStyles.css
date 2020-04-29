@@ -1,8 +1,9 @@
 .main {
     height: 400px;
     width: 100%;
-background: rgb(29,27,23);
-background: linear-gradient(270deg, rgba(29,27,23,1) 0%, rgba(43,40,46,1) 56%, rgba(134,136,133,1) 100%);
+    /*    background-color: #454647;*/
+    background: rgb(29, 27, 23);
+    background: linear-gradient(270deg, rgba(29, 27, 23, 1) 15%, rgba(43, 40, 46, 1) 44%, rgba(69, 70, 71, 1) 100%);
 }
 
 .main {
@@ -20,8 +21,19 @@ background: linear-gradient(270deg, rgba(29,27,23,1) 0%, rgba(43,40,46,1) 56%, r
     padding-top: 20px;
     padding-left: 35px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
+    color: gray;
 }
+
+.main > .main-columns > .main-left-column b {
+    font-size: 26px;
+    color: white;
+}
+
+.main > .main-columns > .main-left-column p {
+    font-size: 19px;
+}
+
 
 .main > .main-columns > .main-left-column > .main-left-buttons {
     display: flex;
@@ -55,8 +67,19 @@ background: linear-gradient(270deg, rgba(29,27,23,1) 0%, rgba(43,40,46,1) 56%, r
     border-radius: 2px;
 }
 
-.main > .main-right-column p
-{
+.main > .main-right-column  {
+    padding: 15px;
+}
+
+.main > .main-right-column > .right-column-title {
+    color: white;
+}
+
+.main > .main-right-column > .right-column-title b {
+    color: #259FD1;
+}
+
+.main > .main-right-column p {
     padding-top: 30px;
     padding-right: 10px;
 }
@@ -65,4 +88,5 @@ background: linear-gradient(270deg, rgba(29,27,23,1) 0%, rgba(43,40,46,1) 56%, r
     position: fixed;
     overflow: hidden;
     padding-top: 1px;
+    width: 100%;
 }

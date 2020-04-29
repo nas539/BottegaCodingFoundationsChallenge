@@ -4,3 +4,11 @@ body {
     color: white;
     font-family: 'Source Code Pro', monospace;
 } 
+
+.spacer40 {
+    height: 40px;
+}
+
+.spacer30 {
+    height: 30px;
+}

@@ -33,11 +33,12 @@
     height: 100%;
 	display: flex;
     justify-content: center;
+    padding-right: 60px;
 }
 
 .header > .header-wrapper > .nav-wrapper > .exploreTitle {
-	color: darkkhaki;
-    font-size: 20px;
+	color: #ffe033;
+    font-size: 17px;
     padding-top: 10px;
     padding-bottom: 5px;
     padding-left: 5px;
@@ -45,7 +46,7 @@
 
 .header > .header-wrapper > .nav-wrapper > .navigation > .nav a {
 	text-decoration: none;
-    padding: 5px 10px;
+    padding: 3px 13px;
     color: white;
     font-size: 20px;
     text-align: left;
@@ -66,6 +67,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-left: 40px;
 }
 
 .header-wrapper > .header-buttons > .head-btn {
@@ -73,7 +75,7 @@
 }
 
 .header-wrapper > .header-buttons > .head-btn > .btn {
-	background-color: dimgray;
+	background-color:  #454647;
     color: white;
     height: 50px;
     width: 90px;
@@ -89,7 +91,7 @@
 
 .header-wrapper > .header-buttons >  .search-btn > .search-icon-button {
 	background-color: black;
-    color: grey;
+    color:  gray;
     height: 35px;
     width: 80px;
     border: none;
