@@ -19,8 +19,8 @@
 .main > .main-columns > .main-left-column {
     align-content: center;
     padding-top: 20px;
-    padding-left: 35px;
-    padding-right: 10px;
+    padding-left: 70px;
+    padding-right: 20px;
     font-size: 25px;
     color: gray;
 }
@@ -32,6 +32,7 @@
 
 .main > .main-columns > .main-left-column p {
     font-size: 19px;
+    
 }
 
 
@@ -42,7 +43,8 @@
 }
 
 .main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button {
-    padding: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 
 .main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button > .sign-up-free-button {
@@ -69,10 +71,12 @@
 
 .main > .main-right-column > .right-column-title {
     color: white;
+    text-decoration: none;
 }
 
-.main > .main-right-column > .right-column-title b {
+.main > .main-right-column > .right-column-title > .code-pen-projects-links {
     color: #259FD1;
+    text-decoration: none;
 }
 
 .main > .main-right-column p {

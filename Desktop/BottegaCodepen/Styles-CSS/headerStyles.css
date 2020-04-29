@@ -50,7 +50,12 @@
     color: white;
     font-size: 20px;
     text-align: left;
+    transition: 2s;
+}
 
+.header > .header-wrapper > .nav-wrapper > .navigation > .nav a:hover {
+  border: 2px solid #ffe033;;
+    letter-spacing: .5px;
 }
 
 .header > .header-wrapper > .nav-wrapper > .navigation > .spark-toggle {
