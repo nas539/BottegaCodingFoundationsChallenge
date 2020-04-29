@@ -48,14 +48,8 @@
 }
 
 .main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button > .sign-up-free-button {
-    height: 55px;
-    width: 300px;
-    padding: 10px;
     font-family: 'Source Code Pro', monospace;
     font-size: 23px;
-    background-color: #34c95d;
-    border: none;
-    border-radius: 2px;
 }
 
 .main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button > .learn-more-button {
@@ -68,13 +62,21 @@
     border: none;
     border-radius: 2px;
 }
-
-.main > .main-right-column > .right-column-title {
+.main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button > .learn-more-button {
+    height: 55px;
+    width: 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 23px;
+    background-color: black;
     color: white;
-    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+}
+.main-right-column > .right-column-title {
+    color: white;
 }
 
-.main > .main-right-column > .right-column-title > .code-pen-projects-links {
+.main-right-column > .right-column-title > .code-pen-projects-links a {
     color: #259FD1;
     text-decoration: none;
 }
