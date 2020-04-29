@@ -1,0 +1,101 @@
+.header {
+	height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header > .header-wrapper{
+    height: 100%;
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header > .header-wrapper > .logo {
+	height: 100%;
+    width: 100%;
+}
+
+.header > .header-wrapper > .logo img {
+	height: 80px;
+    width: 200px;
+}
+
+.header > .header-wrapper > .nav-wrapper > .navigation {
+    height: 100%;
+	display: flex;
+    justify-content: center;
+}
+
+.header > .header-wrapper > .nav-wrapper > .exploreTitle {
+	color: darkkhaki;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.header > .header-wrapper > .nav-wrapper > .navigation > .nav a {
+	text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.header > .header-wrapper > .nav-wrapper > .navigation > .spark-toggle > .btn {
+	background-color: black;
+    color: darkgray;
+    border: none;
+    font-size: 15px;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.header > .header-wrapper > .header-buttons {
+    height: 99px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.header-wrapper > .header-buttons > .head-btn {
+    padding: 5px;
+}
+
+.header-wrapper > .header-buttons > .head-btn > .btn {
+	background-color: dimgray;
+    color: white;
+    height: 50px;
+    width: 90px;
+    border: none;
+    justify-content: center;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.header-wrapper > .header-buttons > .head-btn > .btn i {
+    color: #41fa73;
+}
+
+.header-wrapper > .header-buttons >  .search-btn > .search-icon-button {
+	background-color: black;
+    color: grey;
+    height: 35px;
+    width: 80px;
+    border: none;
+    padding-top: 3px;
+}
+
+.header-wrapper > .header-buttons >  .search-btn > .search-icon-button i {
+    justify-items: center;
+    font-size: 50px;

@@ -1,0 +1,33 @@
+.forCodePen {
+	display: flex;
+    justify-content: center;
+    background-color: #2b282e;
+    position: relative;
+    height: 50px;
+    width: 100%;
+-webkit-box-shadow: 3px -19px 60px 20px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px -19px 60px 20px rgba(0,0,0,0.75);
+box-shadow: 3px -19px 60px 20px rgba(0,0,0,0.75);
+}
+
+.forCodePen > .forCodePen-buttons {
+	border: 1px solid white;
+}
+
+.forCodePen > .forCodePen-buttons > .forCodePen-button {
+	border: none;
+    height: 30px;
+    width: 310px;
+    background-color: #2b282e;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+    align-content: center;
+}
+
+/*
+.forCodePen > .forCodePen-buttons > .forCodePen-button h3 {
+    font-size: 17px;
+}
+*/

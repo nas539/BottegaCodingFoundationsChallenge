@@ -1,0 +1,68 @@
+.main {
+    height: 400px;
+    width: 100%;
+background: rgb(29,27,23);
+background: linear-gradient(270deg, rgba(29,27,23,1) 0%, rgba(43,40,46,1) 56%, rgba(134,136,133,1) 100%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main > .main-columns {
+    display: flex;
+    justify-content: center;
+}
+
+.main > .main-columns > .main-left-column {
+    align-content: center;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.main > .main-columns > .main-left-column > .main-left-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button {
+    padding: 10px;
+}
+
+.main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button > .sign-up-free-button {
+    height: 55px;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 23px;
+    background-color: #34c95d;
+    border: none;
+    border-radius: 2px;
+}
+
+.main > .main-columns > .main-left-column > .main-left-buttons > .main-left-column-button > .learn-more-button {
+    height: 55px;
+    width: 200px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.main > .main-right-column p
+{
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+.main > .main-right-column img {
+    position: fixed;
+    overflow: hidden;
+    padding-top: 1px;
+}
